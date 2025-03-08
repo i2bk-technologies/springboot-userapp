@@ -1,36 +1,25 @@
-# Build Project Using Maven
+Build Project Using Maven
 
-Maven is java based build tool to generate executable 
+Maven is a Java-based build tool used to generate executable packages (JAR, EAR, WAR) for Java-based projects.
 
-packages(jar, ear,war) for java based projects.
-
-```bash
 mvn clean package
-```
 
-## Create Docker Image
-Docker is a continerization tool.Using docker we can deploy our applications as 
+Create Docker Image
 
-containers using docker images. Containers contains application code and also the softwares,
+Docker is a containerization tool that enables us to deploy applications as containers using Docker images. These containers include the application code along with all necessary software, configuration files, and dependencies required for execution.
 
-config files whatever is required for our application to run.
+To create a Docker image using a Dockerfile, run:
 
-Create docker image using Dockerfile
+docker build -t ikapp .
 
+Deploy Application Using Docker Compose
 
-```docker
-docker build -t mylandmarktech/springapp .
-```
+docker-compose up -d
 
-## Deploy Application Using Docker Compose 
+List Docker Containers
 
-```docker-compose 
-docker-compose up -d 
-```
-
-## List Docker Containers
-```docker
 docker ps -a
-```
-## License
-[Landmark Technologies](http://www.mylandmarktech.com)
+
+License
+
+I2BK Technologies Services
