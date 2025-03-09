@@ -23,3 +23,7 @@ docker ps -a
 License
 
 I2BK Technologies Services
+
+Here some usefull git command :
+git pull
+git rebase 
